@@ -1,0 +1,20 @@
+{
+  "name": "hz2vl3",
+  "version": "0.0.0",
+  "description": null,
+  "main": "index.js",
+  "dependencies": {
+    "tailwindcss": "^1.9.1"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "npx tailwindcss build index.css -o output.css",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "author": "",
+  "license": "ISC"
+}
